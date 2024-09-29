@@ -1,0 +1,37 @@
+.faal {
+  background-color: #2b2b2b;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttom {
+  width: fit-content;
+  height: 34px;
+  font-size: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.dropMenu {
+  position: relative;
+}
+.dropMenuItem {
+  position: absolute;
+  right: 0;
+  top: 37px;
+  border-radius: 5px;
+  flex-direction: column;
+  font-size: 11px;
+  width: 170px;
+  z-index: 2;
+  ul {
+    & li {
+      padding: 8px;
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+}
+#free{
+  backdrop-filter: blur(20px);
+}

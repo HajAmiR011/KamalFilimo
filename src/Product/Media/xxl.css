@@ -1,0 +1,6 @@
+.wraper {
+  .product {
+    grid-template-columns: repeat(8, 1fr);
+    max-width: 1600px;
+  }
+}

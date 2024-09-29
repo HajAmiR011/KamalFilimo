@@ -1,0 +1,6 @@
+@import url(./Media/mobile.css);
+@import url(./Media/sm.css) only screen and (min-width: 500px);
+@import url(./Media/md.css) only screen and (min-width: 650px);
+@import url(./Media/lg.css) only screen and (min-width: 820px);
+@import url(./Media/xl.css) only screen and (min-width: 992px);
+@import url(./Media/xxl.css) only screen and (min-width: 1300px);
