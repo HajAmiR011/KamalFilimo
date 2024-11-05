@@ -70,7 +70,7 @@ const Header = () => {
             </svg>
           </button>
           <a className="d-lg-block d-none faal buttom">
-            <div onClick={(e) => dokme(e)} className="flex gap-1 items-center">
+            <div onClick={(e) => dokme(e)} className="flex items-center">
               <svg
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 xmlns="http://www.w3.org/2000/svg"
