@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
   font-family: iran;
-  src: url(../src/fonts/IRANSans-web.woff2);
+  src: url(./fonts/IRANSans-web.woff2);
 }
 body {
   font-family: iran;
