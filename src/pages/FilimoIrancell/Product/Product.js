@@ -10,7 +10,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -81,7 +81,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -152,7 +152,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -223,7 +223,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -294,7 +294,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -365,7 +365,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -436,7 +436,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -507,7 +507,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -578,7 +578,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -649,7 +649,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -720,7 +720,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -791,7 +791,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -862,7 +862,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -933,7 +933,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -1004,7 +1004,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -1075,7 +1075,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -1146,7 +1146,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -1217,7 +1217,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -1288,7 +1288,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -1359,7 +1359,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -1430,7 +1430,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -1501,7 +1501,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />
@@ -1572,7 +1572,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-1.jpg")}
+                src={require("../../../images/pro-1.jpg")}
                 className="img-fliud"
                 alt="p--1"
               />
@@ -1643,7 +1643,7 @@ const Product = () => {
           <div className="pro">
             <div className="image">
               <img
-                src={require("../images/pro-2.jpg")}
+                src={require("../../../images/pro-2.jpg")}
                 className="img-fluid"
                 alt="p--2"
               />

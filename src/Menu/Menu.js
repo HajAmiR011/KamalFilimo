@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../images/logo.webp";
 const Menu = () => {
   return (
@@ -5,17 +6,17 @@ const Menu = () => {
       <div className="h-[inherit] col-auto">
         <nav className="d-none flex-row-reverse gap-3 h-[inherit] items-center d-md-flex">
           <div>
-            <a href="#">
+            <Link to="/">
               <img src={logo} alt="logo" className="w-[90px]" />
-            </a>
+            </Link>
           </div>
           <span className="bg-[gray] text-[20px] w-[1px] h-[30px]"></span>
           <div>
-            <a
-              href="#"
+            <Link
               className="text-white text-decoration-none flex items-center text-[12px] gap-1"
+              to="/FilimoIrancell"
             >
-              <p className="mb-0 hover:text-[orange]">فیلیموتور</p>
+              <p className="mb-0 hover:text-[orange]">فیلیموایرانسل</p>
               <svg
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +67,7 @@ const Menu = () => {
                   </defs>
                 </g>
               </svg>
-            </a>
+            </Link>
           </div>
           <div>
             <a
@@ -132,9 +133,11 @@ const Menu = () => {
         </div>
       </div>
       <div className="flex gap-2 align-items-center col-auto">
-        <button className="btn btn-secondary h-[38px] p-3 d-flex align-items-center">
-          <p className="mb-0 text-[12px]">ورود</p>
-        </button>
+        <Link to="/Login">
+          <button className="btn btn-secondary h-[38px] p-3 d-flex align-items-center">
+            <p className="mb-0 text-[12px]">ورود</p>
+          </button>
+        </Link>
         <button className="btn btn-success d-flex gap-1 align-items-center h-[38px]">
           <p className="mb-0 text-[12px]">خرید اشتراک</p>
           <div className="d-md-block d-none">
