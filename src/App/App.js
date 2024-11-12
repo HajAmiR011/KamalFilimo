@@ -6,7 +6,7 @@ import NotFound from "../pages/NotFound/NotFound";
 const App = () => {
   return (
     <>
-      <BrowserRouter>      
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<FilimoMain />} />
           <Route path="/FilimoIrancell" element={<FilimoIrancell />} />

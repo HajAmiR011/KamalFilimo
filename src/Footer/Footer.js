@@ -1,6 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="w-[100%] fixed bottom-0 z-10 bg-[#191919] h-[35px] flex items-center justify-center">
+    <footer
+      className="w-[100%] sticky bottom-0 z-10 bg-[#191919] h-[35px] flex items-center justify-center"
+      style={{ maxWidth: "1600px" }}
+    >
       <p className="mb-0 text-white">
         Created by{" "}
         <a

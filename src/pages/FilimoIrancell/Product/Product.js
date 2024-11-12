@@ -5,7 +5,7 @@ const Product = () => {
       <h2 className="w-[100%] text-right p-4 text-white font-bold max-w-[1600px]">
         تماشای رایگان
       </h2>
-      <div className="wraper mb-3">
+      <div className="wraper">
         <div className="product">
           <div className="pro">
             <div className="image">

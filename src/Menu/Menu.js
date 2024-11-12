@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../images/logo.webp";
 const Menu = () => {
   return (
@@ -12,8 +12,12 @@ const Menu = () => {
           </div>
           <span className="bg-[gray] text-[20px] w-[1px] h-[30px]"></span>
           <div>
-            <Link
-              className="text-white text-decoration-none flex items-center text-[12px] gap-1"
+            <NavLink
+              className={(navDate) =>
+                navDate.isActive
+                  ? "text-[orange] text-decoration-none flex items-center text-[12px] gap-1"
+                  : "text-white text-decoration-none flex items-center text-[12px] gap-1"
+              }
               to="/FilimoIrancell"
             >
               <p className="mb-0 hover:text-[orange]">فیلیموایرانسل</p>
@@ -67,7 +71,7 @@ const Menu = () => {
                   </defs>
                 </g>
               </svg>
-            </Link>
+            </NavLink>
           </div>
           <div>
             <a
