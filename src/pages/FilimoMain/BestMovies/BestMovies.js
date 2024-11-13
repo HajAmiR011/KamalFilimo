@@ -2,7 +2,7 @@ import "./movie.css";
 const BestMovies = () => {
   return (
     <div
-      className="w-[100%] h-[324px] p-2"
+      className="w-[100%] h-[324px] p-2 mb-[40px]"
       style={{ maxWidth: "1600px", direction: "rtl" }}
     >
       <h2 className="text-white text-[17px] font-bold my-4 titlee">

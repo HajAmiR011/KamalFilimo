@@ -2,6 +2,11 @@ import Menu from "../../Menu/Menu";
 import Footer from "../../Footer/Footer";
 import Slider from "./Slider/Slider";
 import BestMovies from "./BestMovies/BestMovies";
+import Devices from "./Devices/Devices";
+import FreeMedia from "./FreeMedia/FreeMedia";
+import PicAd from "./PicAd/PicAd";
+import Questions from "./Questions/Questions";
+import EndShow from "./EndShow/EndShow";
 const FilimoMain = () => {
   return (
     <main className="bg-dark flex flex-col items-center">
@@ -12,7 +17,7 @@ const FilimoMain = () => {
         style={{ maxWidth: "1600px" }}
       >
         <Slider />
-        <div className="font-bold flex flex-col items-center absolute top-[60%] w-[100%] translate-y-[-48%] left-[50%] translate-x-[-50%] z-1 text-white gap-4">
+        <div className="font-bold flex flex-col items-center absolute top-[60%] w-[100%] translate-y-[-48%] left-[50%] translate-x-[-50%] z-1 text-white gap-3">
           <h3 className="text-[orange]">با فیلیمو بی‌وقفه فیلم ببین</h3>
           <h1 className="text-[35px] mb-2">!کنترل همیشه دست توست</h1>
           <div
@@ -86,6 +91,11 @@ const FilimoMain = () => {
       </div>
       {/* slider */}
       <BestMovies />
+      <Devices />
+      <FreeMedia />
+      <PicAd />
+      <Questions />
+      <EndShow />
       <Footer />
     </main>
   );

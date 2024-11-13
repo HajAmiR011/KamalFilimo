@@ -131,9 +131,9 @@ const Menu = () => {
           </div>
         </nav>
         <div className="d-md-none h-[inherit] items-center flex">
-          <a href="#">
+          <Link to="/">
             <img src={logo} alt="logo" className="w-[90px]" />
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex gap-2 align-items-center col-auto">

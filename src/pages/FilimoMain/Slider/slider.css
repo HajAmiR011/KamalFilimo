@@ -12,11 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(
-    130% 44% at 41% 40%,
-    rgba(0, 0, 0, 0) 0,
-    #151515 100%
-  );
   background: linear-gradient(
     186.97deg,
     rgba(21, 21, 21, 0) 5.45%,

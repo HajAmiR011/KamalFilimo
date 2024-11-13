@@ -1,0 +1,22 @@
+.swiper-slide {
+  background: transparent;
+}
+
+.karim {
+  border-radius: 10px;
+}
+.salam {
+  padding: 0 6px;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  background-color: #2b2b2b;
+}
