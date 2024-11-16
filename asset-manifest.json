@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/KamalFilimo/static/css/main.faaae818.css",
+    "main.js": "/KamalFilimo/static/js/main.d2725798.js",
+    "static/media/sliderImg-3.webp": "/KamalFilimo/static/media/sliderImg-3.7e9f9c84ea28f2797cf8.webp",
+    "static/media/sliderImg-1.webp": "/KamalFilimo/static/media/sliderImg-1.19f9563b5f49e11c55db.webp",
+    "static/media/bg-kids.webp": "/KamalFilimo/static/media/bg-kids.a82f561a905e6b802c9f.webp",
+    "static/media/sliderImg-4.webp": "/KamalFilimo/static/media/sliderImg-4.8bf51a66eb93186d9abd.webp",
+    "static/media/sliderImg-2.webp": "/KamalFilimo/static/media/sliderImg-2.9a92437d8d964fd43545.webp",
+    "static/media/sliderImg-5.webp": "/KamalFilimo/static/media/sliderImg-5.e8e8a7a877c11f13e484.webp",
+    "static/media/pro-1.jpg": "/KamalFilimo/static/media/pro-1.9e65ed78d0975ff23154.jpg",
+    "static/media/pro-2.jpg": "/KamalFilimo/static/media/pro-2.3653638481ca43dac9d8.jpg",
+    "static/media/deviceLg.webp": "/KamalFilimo/static/media/deviceLg.d532cecfea0315377982.webp",
+    "static/media/IRANSans-web.woff2": "/KamalFilimo/static/media/IRANSans-web.18bd2905f548d6ba690e.woff2",
+    "static/media/deviceSm.webp": "/KamalFilimo/static/media/deviceSm.45f157e652c6ff59ec74.webp",
+    "static/media/mov_srl_free.webp": "/KamalFilimo/static/media/mov_srl_free.4bcd09676daf611034c3.webp",
+    "static/media/mov_srl_free2.webp": "/KamalFilimo/static/media/mov_srl_free2.d6ba6b127a929d467d32.webp",
+    "static/media/pro-1.webp": "/KamalFilimo/static/media/pro-1.ef2b86651a6a18db95fb.webp",
+    "static/media/pro-2.webp": "/KamalFilimo/static/media/pro-2.c65e1b8b29aa918affc6.webp",
+    "static/media/logo.webp": "/KamalFilimo/static/media/logo.f7da4c7ee30208dde572.webp",
+    "index.html": "/KamalFilimo/index.html",
+    "main.faaae818.css.map": "/KamalFilimo/static/css/main.faaae818.css.map",
+    "main.d2725798.js.map": "/KamalFilimo/static/js/main.d2725798.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faaae818.css",
+    "static/js/main.d2725798.js"
+  ]
+}
