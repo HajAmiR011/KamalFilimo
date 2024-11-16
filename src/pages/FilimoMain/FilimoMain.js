@@ -19,7 +19,9 @@ const FilimoMain = () => {
         <Slider />
         <div className="font-bold flex flex-col items-center absolute top-[60%] w-[100%] translate-y-[-48%] left-[50%] translate-x-[-50%] z-1 text-white gap-3">
           <h3 className="text-[orange]">با فیلیمو بی‌وقفه فیلم ببین</h3>
-          <h1 className="text-[35px] mb-2">!کنترل همیشه دست توست</h1>
+          <h1 className="text-[35px] mb-2 text-center">
+            !کنترل همیشه دست توست
+          </h1>
           <div
             className="flex w-100 items-center text-[whitesmoke] flex-column gap-2 gap-lg-4 gap-xl-5 gap-md-2 flex-md-row justify-content-md-center text-[14px] mb-3"
             style={{ direction: "rtl" }}

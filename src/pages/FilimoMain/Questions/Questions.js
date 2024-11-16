@@ -5,6 +5,10 @@ const Questions = () => {
   const test1 = useRef();
   const test2 = useRef();
   const test3 = useRef();
+  const color = useRef();
+  const color1 = useRef();
+  const color2 = useRef();
+  const color3 = useRef();
   let flag = true;
   let flag1 = true;
   let flag2 = true;
@@ -13,10 +17,14 @@ const Questions = () => {
     if (flag) {
       test.current.classList.remove("hidden");
       test.current.classList.add("block");
+      color.current.classList.remove("text-white");
+      color.current.classList.add("text-[orange]");
       flag = false;
     } else {
       test.current.classList.remove("block");
       test.current.classList.add("hidden");
+      color.current.classList.add("text-white");
+      color.current.classList.remove("text-[orange]");
       flag = true;
     }
   };
@@ -24,10 +32,14 @@ const Questions = () => {
     if (flag1) {
       test1.current.classList.remove("hidden");
       test1.current.classList.add("block");
+      color1.current.classList.remove("text-white");
+      color1.current.classList.add("text-[orange]");
       flag1 = false;
     } else {
       test1.current.classList.remove("block");
       test1.current.classList.add("hidden");
+      color1.current.classList.add("text-white");
+      color1.current.classList.remove("text-[orange]");
       flag1 = true;
     }
   };
@@ -35,10 +47,14 @@ const Questions = () => {
     if (flag2) {
       test2.current.classList.remove("hidden");
       test2.current.classList.add("block");
+      color2.current.classList.remove("text-white");
+      color2.current.classList.add("text-[orange]");
       flag2 = false;
     } else {
       test2.current.classList.remove("block");
       test2.current.classList.add("hidden");
+      color2.current.classList.add("text-white");
+      color2.current.classList.remove("text-[orange]");
       flag2 = true;
     }
   };
@@ -46,10 +62,14 @@ const Questions = () => {
     if (flag3) {
       test3.current.classList.remove("hidden");
       test3.current.classList.add("block");
+      color3.current.classList.remove("text-white");
+      color3.current.classList.add("text-[orange]");
       flag3 = false;
     } else {
       test3.current.classList.remove("block");
       test3.current.classList.add("hidden");
+      color3.current.classList.add("text-white");
+      color3.current.classList.remove("text-[orange]");
       flag3 = true;
     }
   };
@@ -72,6 +92,7 @@ const Questions = () => {
       >
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
+            ref={color1}
             className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
             onClick={() => {
               btn1();
@@ -91,6 +112,7 @@ const Questions = () => {
         </div>
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
+            ref={color2}
             className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
             onClick={() => {
               btn2();
@@ -110,6 +132,7 @@ const Questions = () => {
         </div>
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
+            ref={color3}
             className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
             onClick={() => {
               btn3();
@@ -129,6 +152,7 @@ const Questions = () => {
         </div>
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
+            ref={color}
             className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
             onClick={() => {
               btn();

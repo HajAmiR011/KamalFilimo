@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <>
-      <div className="w-[450px] mx-auto px-[5px]" style={{ direction: "rtl" }}>
+      <div
+        className="w-[100%] min-[450px]:w-[450px] mx-auto px-[5px]"
+        style={{ direction: "rtl" }}
+      >
         <Link to="/">
           <div className="w-100 flex my-[60px] justify-center items-center gap-2">
             <svg
@@ -78,7 +81,10 @@ const Login = () => {
         <h3 className="text-center font-bold mb-[16px]">
           ورود یا ثبت‌نام در فیلیمو
         </h3>
-        <Link to="/" className="text-[12px] text-[gray] flex mb-[20px]">
+        <a
+          className="w-fit text-[12px] text-[gray] flex mb-[20px] cursor-pointer"
+          onClick={() => window.history.back()}
+        >
           <svg
             width="16"
             height="16"
@@ -92,8 +98,8 @@ const Login = () => {
             />
           </svg>
           <span>بازگشت</span>
-        </Link>
-        <div className="box w-[440px] border-1 p-[32px] rounded-[12px] border-[rgb(224, 224, 224)]">
+        </a>
+        <div className="box w-[100%] min-[450px]:w-[440px] border-1 p-[32px] rounded-[12px] border-[rgb(224, 224, 224)]">
           <div className="first flex flex-col justify-between text-[12px] h-[140px]">
             <span>برای ورود یا ثبت‌نام، اطلاعات کاربری خود را وارد کنید:</span>
             <div className="relative">

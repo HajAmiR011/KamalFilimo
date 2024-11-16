@@ -26,7 +26,7 @@ const PicAd = () => {
           </button>
         </div>
       </article>
-      <section className="w-[420px]">
+      <section className="w-[420px] size">
         <img
           src={require("../../../images/bg-kids.webp")}
           alt="show"
