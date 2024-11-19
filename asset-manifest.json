@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KamalFilimo/static/css/main.faaae818.css",
-    "main.js": "/KamalFilimo/static/js/main.d2725798.js",
+    "main.css": "/KamalFilimo/static/css/main.7bf1983f.css",
+    "main.js": "/KamalFilimo/static/js/main.8f72fc56.js",
     "static/media/sliderImg-3.webp": "/KamalFilimo/static/media/sliderImg-3.7e9f9c84ea28f2797cf8.webp",
     "static/media/sliderImg-1.webp": "/KamalFilimo/static/media/sliderImg-1.19f9563b5f49e11c55db.webp",
     "static/media/bg-kids.webp": "/KamalFilimo/static/media/bg-kids.a82f561a905e6b802c9f.webp",
@@ -19,11 +19,11 @@
     "static/media/pro-2.webp": "/KamalFilimo/static/media/pro-2.c65e1b8b29aa918affc6.webp",
     "static/media/logo.webp": "/KamalFilimo/static/media/logo.f7da4c7ee30208dde572.webp",
     "index.html": "/KamalFilimo/index.html",
-    "main.faaae818.css.map": "/KamalFilimo/static/css/main.faaae818.css.map",
-    "main.d2725798.js.map": "/KamalFilimo/static/js/main.d2725798.js.map"
+    "main.7bf1983f.css.map": "/KamalFilimo/static/css/main.7bf1983f.css.map",
+    "main.8f72fc56.js.map": "/KamalFilimo/static/js/main.8f72fc56.js.map"
   },
   "entrypoints": [
-    "static/css/main.faaae818.css",
-    "static/js/main.d2725798.js"
+    "static/css/main.7bf1983f.css",
+    "static/js/main.8f72fc56.js"
   ]
 }
