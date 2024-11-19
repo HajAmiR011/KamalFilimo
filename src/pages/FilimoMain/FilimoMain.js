@@ -17,7 +17,7 @@ const FilimoMain = () => {
         style={{ maxWidth: "1600px" }}
       >
         <Slider />
-        <div className="font-bold flex flex-col items-center absolute top-[60%] w-[100%] translate-y-[-48%] left-[50%] translate-x-[-50%] z-1 text-white gap-3">
+        <div className="font-bold flex flex-col items-center absolute top-[60%] w-[100%] translate-y-[-50%] left-[50%] translate-x-[-50%] z-1 text-white gap-3">
           <h3 className="text-[orange]">با فیلیمو بی‌وقفه فیلم ببین</h3>
           <h1 className="text-[35px] mb-2 text-center">
             !کنترل همیشه دست توست
