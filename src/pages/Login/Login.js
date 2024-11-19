@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <>
       <div
-        className="w-[100%] min-[450px]:w-[450px] mx-auto px-[5px]"
+        className="w-[100%] min-[450px]:w-[450px] mx-auto px-[8px]"
         style={{ direction: "rtl" }}
       >
         <Link to="/">

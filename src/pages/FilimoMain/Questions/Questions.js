@@ -93,7 +93,7 @@ const Questions = () => {
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
             ref={color1}
-            className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
+            className="flex justify-between font-semibold text-[13px] items-center cursor-pointer min-[550px]:text-[15px]"
             onClick={() => {
               btn1();
             }}
@@ -101,7 +101,10 @@ const Questions = () => {
             <span>آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟</span>
             <span>+</span>
           </div>
-          <div className="text-[13px] text-[#bbbbbb] hidden" ref={test1}>
+          <div
+            className="text-[12px] text-[#bbbbbb] hidden min-[550px]:text-[13px]"
+            ref={test1}
+          >
             بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن
             فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر،
             هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و
@@ -113,7 +116,7 @@ const Questions = () => {
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
             ref={color2}
-            className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
+            className="flex justify-between font-semibold text-[13px] items-center cursor-pointer min-[550px]:text-[15px]"
             onClick={() => {
               btn2();
             }}
@@ -121,7 +124,7 @@ const Questions = () => {
             <span>آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟</span>
             <span>+</span>
           </div>
-          <div className="text-[13px] text-[#bbbbbb] hidden" ref={test2}>
+          <div className="text-[12px] text-[#bbbbbb] hidden min-[550px]:text-[13px]" ref={test2}>
             بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن
             فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر،
             هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و
@@ -133,7 +136,7 @@ const Questions = () => {
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
             ref={color3}
-            className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
+            className="flex justify-between font-semibold text-[13px] items-center cursor-pointer min-[550px]:text-[15px]"
             onClick={() => {
               btn3();
             }}
@@ -141,7 +144,7 @@ const Questions = () => {
             <span>آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟</span>
             <span>+</span>
           </div>
-          <div className="text-[13px] text-[#bbbbbb] hidden" ref={test3}>
+          <div className="text-[12px] text-[#bbbbbb] hidden min-[550px]:text-[13px]" ref={test3}>
             بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن
             فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر،
             هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و
@@ -153,7 +156,7 @@ const Questions = () => {
         <div className="p-3 w-100 bg-[#2b2b2b] text-white rounded-[8px] flex flex-col gap-3 border-1 border-white/50">
           <div
             ref={color}
-            className="flex justify-between font-semibold text-[15px] items-center cursor-pointer"
+            className="flex justify-between font-semibold text-[13px] items-center cursor-pointer min-[550px]:text-[15px]"
             onClick={() => {
               btn();
             }}
@@ -161,7 +164,7 @@ const Questions = () => {
             <span>آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟</span>
             <span>+</span>
           </div>
-          <div className="text-[13px] text-[#bbbbbb] hidden" ref={test}>
+          <div className="text-[12px] text-[#bbbbbb] hidden min-[550px]:text-[13px]" ref={test}>
             بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن
             فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر،
             هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و
